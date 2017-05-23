@@ -13,9 +13,13 @@ class DetailViewUI extends React.Component {
   }
   render(){
     var props = this.props;
+    console.log(props);
 
     return(
       <div className='container col-sm-6 col-sm-offset-3'>
+        <div className='text-center'>
+          <h2>{props.box_score.data.boxscore.date}</h2>
+        </div>
         <div>
           <InningsTable
             box_score={props.box_score}

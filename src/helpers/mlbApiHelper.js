@@ -1,6 +1,5 @@
-var axios = require('axios');
 var _ = require('lodash');
-
+var axios = require('axios');
 
 var baseURL = 'http://gd2.mlb.com/components/game/mlb/year_';
 var box_score_url = 'http://gd2.mlb.com';

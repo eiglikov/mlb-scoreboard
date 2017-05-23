@@ -34,7 +34,15 @@ var DetailStyles= {
   linescoreWrapper: {
     textAlign: "right"
   },
-
+  teamWrapper: {
+    marginTop: "50px"
+  },
+  active: {
+    color: "blue"
+  },
+  homeButtonWrapper: {
+    textAlign: "left"
+  }
 }
 
 export default DetailStyles;

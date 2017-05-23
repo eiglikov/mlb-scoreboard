@@ -1,17 +1,5 @@
 import React from 'react';
-
-
-var teamStyles={
-  teamWrapper: {
-    marginTop: "50px"
-  },
-  active: {
-    color: "blue"
-  },
-  homeButtonWrapper: {
-    textAlign: "left"
-  }
-}
+import DetailStyles from './DetailStyles';
 
 class TeamViewButton extends React.Component {
   render() {
