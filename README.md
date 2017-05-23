@@ -23,6 +23,7 @@ This project was developed with React and React-Router
 #### Tech-Stack overview:
 * React 
 * React-Router
+* Webpack
 * Bootstrap
 
 
