@@ -48,22 +48,21 @@ src/
     Detail/
       BatsmenDetail.js          # prints Batsmen table
       Detail.js                 # top component that creates DetailViewUI
-      DetailStyles.js           # component style
-      DetailViewUI.js           # creates layout with DisplayInning, LineScore, TeamView
-      DisplayInning.js          # prints innings in Inning table
-      LineScore.js              # prints scores in Inning table
+      DetailStyles.js           # styles
+      DetailViewUI.js           # creates layout with InningsTable and TeamView
+      InningsTable.js           # prints Inning table
       TeamViewButton.js         # switch between batsmen team details
       TeamView.js               # team scores + batsmen top component
     Game/
       FavFilter.js              # favorite team compoenent
-      Game.js                   # top component that creates GameUI
+      Game.js                   # top component that creates GameUI, date picker and fav team changer
       GameItem.js               # single Game in the list
-      GameStyles.js             # component style
+      GameStyles.js             # styles
       GameUI.js                 # creates layout with GameItem
 
-  containers/
-      DetailContainer.js        # detail page container
-      GameDateContainer.js      # main page container
+  containers/ 
+      DetailContainer.js        # detail page container holds all methods and states of Detail
+      GameDateContainer.js      # Games page container holds all methods and states of Games
       MainContainer.js          # router wrapper for app
 
   helpers/
