@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import TeamView from './TeamView';
+import TeamViewContainer from '../../containers/TeamViewContainer';
 import InningsTable from './InningsTable';
 
 
@@ -22,7 +22,8 @@ class DetailViewUI extends React.Component {
           />
         </div>
         <div>
-          <TeamView batsmen={props.box_score.data.boxscore.batting} away={props.box_score.data.boxscore.away_fname} home={props.box_score.data.boxscore.home_fname} />
+          <TeamViewContainer
+            batsmen={props.box_score.data.boxscore.batting} away={props.box_score.data.boxscore.away_fname} home={props.box_score.data.boxscore.home_fname} />
         </div>
       </div>
     );

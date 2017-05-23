@@ -1,9 +1,9 @@
 import React from 'react';
-import TeamViewButton from './TeamViewButton';
-import BatsmenDetail from './BatsmenDetail';
+import TeamViewButton from '../components/Detail/TeamViewButton';
+import BatsmenDetail from '../components/Detail/BatsmenDetail';
 
 
-class TeamView extends React.Component {
+class TeamViewContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -64,4 +64,4 @@ class TeamView extends React.Component {
   }
 };
 
-export default TeamView;
+export default TeamViewContainer;

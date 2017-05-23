@@ -1,26 +1,6 @@
 import React from 'react';
 import DetailStyles from './DetailStyles';
 
-
-class Batsmen extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render(){
-    var props = this.props;
-    return(
-      <tr>
-        <td>{props.batsmen.name_display_first_last}</td>
-        <td>{props.batsmen.a}</td>
-        <td>{props.batsmen.h}</td>
-        <td>{props.batsmen.rbi}</td>
-        <td>{props.batsmen.bb}</td>
-        <td>{props.batsmen.so}</td>
-        <td>{props.batsmen.avg}</td>
-      </tr>
-    )
-  }
-}
 class BatsmenDetail extends React.Component {
   constructor(props) {
     super(props);
@@ -44,9 +24,15 @@ class BatsmenDetail extends React.Component {
         <tbody>
           {
             props.batsmen.batter.map(function(info){
-              return <Batsmen
-                key={info.id}
-                batsmen={info} />
+              return <tr key={info.id}>
+                <td>{info.name_display_first_last}</td>
+                <td>{info.a}</td>
+                <td>{info.h}</td>
+                <td>{info.rbi}</td>
+                <td>{info.bb}</td>
+                <td>{info.so}</td>
+                <td>{info.avg}</td>
+              </tr>
             })
           }
         </tbody>
