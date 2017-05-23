@@ -1,0 +1,46 @@
+{
+  "name": "mlb-scoreboard",
+  "version": "1.0.0",
+  "author": "Erik Iglikov",
+  "description": "MLB scoreboard that displays the team names and scores for each of the games on a given day.",
+  "license": "ISC",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --inline --hot"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.5.0",
+    "history": "^1.17.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.0.2",
+    "react-dom": "^15.5.4",
+    "react-router": "^2.4.0",
+    "react-router-dom": "^4.1.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-react": "^7.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "lodash": "^4.12.0",
+    "moment": "^2.18.1",
+    "node-sass": "^4.5.3",
+    "react-datetime": "^2.8.10",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.6.0"
+  }
+}
