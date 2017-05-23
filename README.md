@@ -18,10 +18,14 @@ This project was developed with Meteor.js
 * https://facebook.github.io/react/
 * https://www.npmjs.com/package/react-router
 
+
+
 #### Tech-Stack overview:
 * React 
 * React-Router
-* Bootstrap (styles)
+* Bootstrap
+
+
 
 #### How to run application?
 
@@ -31,6 +35,8 @@ This project was developed with Meteor.js
 * wait for packages to be downloaded and installed
 * from command line run "npm start"
 * open localhost:8080
+
+
 
 #### General Application Structure Overview
 
