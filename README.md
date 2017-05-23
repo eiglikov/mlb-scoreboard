@@ -55,11 +55,11 @@ src/
       TeamViewButton.js         # switch between batsmen team details
       TeamView.js               # team scores + batsmen top component
     Game/
-      FavFilter.js              # fill the DB with example data on startup
-      Game.js                   # import server startup through a single index entry point
+      FavFilter.js              # favorite team compoenent
+      Game.js                   # top component that creates GameUI
       GameItem.js               # single Game in the list
       GameStyles.js             # component style
-      GameUI.js                 # Game top component
+      GameUI.js                 # creates layout with GameItem
 
   containers/
       DetailContainer.js        # detail page container
