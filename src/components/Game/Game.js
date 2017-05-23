@@ -16,7 +16,7 @@ class Game extends React.Component {
       <div>
         {
           props.isLoading === true
-          ? <h1>Loading</h1>
+            ? <h1>Loading</h1>
           : <div className="container col-sm-6 col-sm-offset-3" style={GameStyles.headerWrapper}>
             <div className="row">
 
@@ -31,17 +31,17 @@ class Game extends React.Component {
                   dateFormat="MMMM D, YYYY"
                   timeFormat={false}
                   inputProps={ {readOnly:true}}/>
-                </div>
+              </div>
 
-                <div className="col-xs-2 col-sm-1" style={GameStyles.rightArrow} onClick={props.onNextDay}>
-                  <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                </div>
-                <div className="pull-right">
-                  <FavFilter
-                    onUpdateFavTeam={props.onUpdateFavTeam}
-                    favTeam={props.favTeam}
-                    onSubmitFav={props.onSubmitFav} />
-                  </div>
+              <div className="col-xs-2 col-sm-1" style={GameStyles.rightArrow} onClick={props.onNextDay}>
+                <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              </div>
+              <div className="pull-right">
+                <FavFilter
+                  onUpdateFavTeam={props.onUpdateFavTeam}
+                  favTeam={props.favTeam}
+                  onSubmitFav={props.onSubmitFav} />
+              </div>
                 </div>
 
                 <div className="row">
