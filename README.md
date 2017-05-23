@@ -1,4 +1,5 @@
-##### mlb-scoreboard
+
+# mlb-scoreboard
 
 #### Brief Description:
 MLB scoreboard that displays the team names and scores for each of the games on a given day.
@@ -17,10 +18,14 @@ This project was developed with Meteor.js
 * https://facebook.github.io/react/
 * https://www.npmjs.com/package/react-router
 
+
+
 #### Tech-Stack overview:
 * React 
 * React-Router
-* Bootstrap (styles)
+* Bootstrap
+
+
 
 #### How to run application?
 
@@ -30,6 +35,8 @@ This project was developed with Meteor.js
 * wait for packages to be downloaded and installed
 * from command line run "npm start"
 * open localhost:8080
+
+
 
 #### General Application Structure Overview
 
@@ -54,16 +61,16 @@ src/
       GameUI.js                 # Game top component
 
   containers/
-      DetailContainer.js              # detail page container
-      GameDateContainer.js            # main page container
-      MainContainer.js                # router wrapper for app
+      DetailContainer.js        # detail page container
+      GameDateContainer.js      # main page container
+      MainContainer.js          # router wrapper for app
 
   helpers/
-    mlbApiHelper.js                   # MLB API helper
+    mlbApiHelper.js             # MLB API helper
 
   routes/
-    routes.js                      # set up all routes in the app
+    routes.js                   # set up all routes in the app
 
-  App.js                           # entry point that sets up router and attach it to DOM
-  index.html                       # static html template
+  App.js                        # entry point that sets up router and attach it to DOM
+  index.html                    # static html template
 ```
