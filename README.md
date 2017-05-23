@@ -14,7 +14,7 @@ MLB scoreboard that displays the team names and scores for each of the games on 
 6. Develope features one by one in iterative manner.
 7. Code cleanup and minor improvements
 
-This project was developed with Meteor.js
+This project was developed with React and React-Router
 * https://facebook.github.io/react/
 * https://www.npmjs.com/package/react-router
 
@@ -45,7 +45,7 @@ This project was developed with Meteor.js
 src/
   components/
     Detail/
-      BatsmenDetail.js          # import client startup through a single index entry point
+      BatsmenDetail.js          # prints Batsmen table
       Detail.js                 # top component that creates DetailViewUI
       DetailStyles.js           # component style
       DetailViewUI.js           # creates layout with DisplayInning, LineScore, TeamView
